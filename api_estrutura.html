@@ -22,12 +22,116 @@
         </div>
      </header>
 
+        <div>
+            <img src="img/logoTeste.png" alt="" />
+        </div>
+
+    <main id="zona_principal" class="container3">
+         <div class="zona_p1 box" id="box1">
+            <h1> ENTENDA COMO NOSSA API FUNCIONA</h1>
+            <p> O Webservice do coronavirus foi criado gratuitamente para que a populacão possa a
+                ter acesso dos dados atraves de aplicações desenvolvidas por programadores ou por
+                pessoas de conhecimentos necessarios.
+                Pelo fato da facto de ser gratuito pedimos a colaboração de todos informando "
+                casos suspeitos", contamos com a sua ajuda,
+                <span class="letras_vermelho">
+                    <a href="ajuda_cadastra">clique aqui.</a>
+                </span>
+            </p>
+
+            <p>
+                A estrutura da nossa api possui dois metodos sendo eles o
+                <span class="letras_vermelho">"listar"</span> e o
+                <span class="letras_vermelho">"encontrar"</span> ,
+                como o proprio nome sugere o listar retorna uma lista de todos as provincias
+                em ordem crescente envolvendo os numeros de casos registrados,
+                ja o encontrar necessita de um parâmetro, pois trata de um mêtodo de pesquisa,
+                ou seja, o retorno depende do parametro passado via URL. Para ambos os casos
+                o resultado sera uma lista de dados retornado via json.
+            </p>
+        </div>
+
+
+        <div class="zona_p2" id="saibaM">
+
+            <div id="box2" class="box">
+                <h3>ACESSANDO O WEBSERVICE</h3>
+                <p>
+                    Tantos os dados como a estrutura da api pode ser modificada ao longo do tempo,
+                    sendo assim pedimos a vossa compreensão e colaboração. Preencha o formulario
+                    abaixo e deixe a sua opnião para continuarmos a melhorar a api.
+                </p>
+
+                <p>
+                    Os dados que alimentam a api são colhidos no site do ministerio da saúde, através de grandes portais de
+                    noticia,
+                    plataformas de monitoramento especializada. Mas contamos com a sua informação sobre possiveis casos.
+                </p>
     
-    <div>
-        <img src="img/logoTeste.png" alt="" />
-    </div>
+            </div>
+
+
+            <div class="box" id="box3">
+                <p>
+                    Para ter acesso aos dados é bastante simples, a URL a ser usada é:
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, consequatur!
+                </p>
+                <p> URL: <a href=" http://stopCOVID19/angola_api/listar" target="_blank" class="url_api"
+                        rel="noopener noreferrer">
+                        http://stopCOVID19/angola_api/listar</a></p>
+
+                <div class="foto_api">
+                    <img src="img/AR.jpg" alt="foto da api listar">
+                </div>
+            </div>
+
+
+            <div class="box" id="box4">
+                <p>
+                    E para realizar uma pesquisa basta passar o metodo "encontrar" e o parametro,
+                    que é a provincia, logo retorna dados gerais da provincia.
+                </p>
+                <p> URL: <a href=" http://stopCOVID19/angola_api/encontrar/Luanda" target="_blank" class="url_api"
+                        rel="noopener noreferrer"> http://StopCovid19/angola_api/encontrar/Luanda</a></p>
+
+                <div class="foto_api">
+                    <img src="img/AR.jpg" alt="foto da api listar">
+                </div>
+            </div>
+
+           
+    </main>
+            <section id="contact-info" class="bg-dark">
+
+                <div class="container">
+                    <div class="box boxC" >
+                        <!-- o codigo i abaixo é o icone-->
+                        <i class="fas fa-hotel fa-3x"></i>
+                        <h3>Endereço</h3>
+                        <p>Luanda, Viana KM 14, Rua do General</p>
+                    </div>
+                    <div class="box boxC">
+                          <!-- o codigo i abaixo é o icone-->
+                          <i class="fas fa-phone fa-3x"></i>
+                        <h3>Telefone</h3>
+                        <p>(+244) 932 392 875 || (+244) 992 392 875</p>                        
+                    </div>
+                    <div class="box boxC">
+                          <!-- o codigo i abaixo é o icone-->
+                          <i class="fas fa-envelope fa-3x"></i>
+                        <h3>Email</h3>
+                        <p>geral.info@api_Stop_Covid_19.co.ao</p>
+                    </div>       
+                </div>
+
+            </section>
+
+
      
 
+  <footer class="center bg-dark" >
+        <p>COVID-ZERO ANGOLA &copy; Todos Direitos Reservados - 2020</p>
+    </footer>
 
 </body>
 </html>
