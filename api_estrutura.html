@@ -10,7 +10,10 @@
 
     <title>COVID-ZERO APP | API</title>
     <link rel="stylesheet" href="css/css.css">
+    
+    <link rel="stylesheet" href="css/EstiloAPI.css">
 
+     <link rel="stylesheet" href="fontawesome-free/css/all.css">
 </head>
 <body>
 
@@ -22,10 +25,6 @@
         </div>
      </header>
 
-        <div>
-            <img src="img/logoTeste.png" alt="" />
-        </div>
-
     <main id="zona_principal" class="container3">
          <div class="zona_p1 box" id="box1">
             <h1> ENTENDA COMO NOSSA API FUNCIONA</h1>
@@ -33,16 +32,16 @@
                 ter acesso dos dados atraves de aplicações desenvolvidas por programadores ou por
                 pessoas de conhecimentos necessarios.
                 Pelo fato da facto de ser gratuito pedimos a colaboração de todos informando "
-                casos suspeitos", contamos com a sua ajuda,
+                casos suspeitos", contamos com a sua ajuda.
                 <span class="letras_vermelho">
-                    <a href="ajuda_cadastra">clique aqui.</a>
+                    <a href="Download.html">Clique aqui para baixar a aplicação.</a>
                 </span>
             </p>
 
             <p>
                 A estrutura da nossa api possui dois metodos sendo eles o
-                <span class="letras_vermelho">"listar"</span> e o
-                <span class="letras_vermelho">"encontrar"</span> ,
+                <span class="letras_vermelho">"Listar"</span> e o
+                <span class="letras_vermelho">"Encontrar"</span> ,
                 como o proprio nome sugere o listar retorna uma lista de todos as provincias
                 em ordem crescente envolvendo os numeros de casos registrados,
                 ja o encontrar necessita de um parâmetro, pois trata de um mêtodo de pesquisa,
@@ -57,28 +56,24 @@
             <div id="box2" class="box">
                 <h3>ACESSANDO O WEBSERVICE</h3>
                 <p>
+                    Os dados que alimentam a api são colhidos no site do ministerio da saúde, 
+                    através de grandes portais de noticia, plataformas de monitoramento especializada.
                     Tantos os dados como a estrutura da api pode ser modificada ao longo do tempo,
-                    sendo assim pedimos a vossa compreensão e colaboração. Preencha o formulario
-                    abaixo e deixe a sua opnião para continuarmos a melhorar a api.
+                    sendo assim pedimos a vossa compreensão e colaboração. 
+                     Mas contamos com a sua informação sobre possiveis casos.
+             
                 </p>
-
-                <p>
-                    Os dados que alimentam a api são colhidos no site do ministerio da saúde, através de grandes portais de
-                    noticia,
-                    plataformas de monitoramento especializada. Mas contamos com a sua informação sobre possiveis casos.
-                </p>
+               
     
             </div>
-
-
             <div class="box" id="box3">
                 <p>
                     Para ter acesso aos dados é bastante simples, a URL a ser usada é:
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, consequatur!
                 </p>
-                <p> URL: <a href=" http://stopCOVID19/angola_api/listar" target="_blank" class="url_api"
+                <p> URL: <a href=""  class="url_api"
                         rel="noopener noreferrer">
-                        http://stopCOVID19/angola_api/listar</a></p>
+                        http://localhost/stopcovid19/api/dados/</a></p>
 
                 <div class="foto_api">
                     <img src="img/AR.jpg" alt="foto da api listar">
@@ -91,41 +86,91 @@
                     E para realizar uma pesquisa basta passar o metodo "encontrar" e o parametro,
                     que é a provincia, logo retorna dados gerais da provincia.
                 </p>
-                <p> URL: <a href=" http://stopCOVID19/angola_api/encontrar/Luanda" target="_blank" class="url_api"
-                        rel="noopener noreferrer"> http://StopCovid19/angola_api/encontrar/Luanda</a></p>
+                <p> URL: <a href="""  class="url_api"
+                        rel="noopener noreferrer">http://localhost/stopcovid19/api/dados/Luanda</a></p>
 
                 <div class="foto_api">
                     <img src="img/AR.jpg" alt="foto da api listar">
                 </div>
-            </div>
-
-           
+            </div>           
     </main>
-            <section id="contact-info" class="bg-dark">
+    
+    
+    
+    <section  id="zona_tabela_api">
+         
+        <div class="container3">                
+              <div id="tabela2">
 
-                <div class="container">
-                    <div class="box boxC" >
-                        <!-- o codigo i abaixo é o icone-->
-                        <i class="fas fa-hotel fa-3x"></i>
-                        <h3>Endereço</h3>
-                        <p>Luanda, Viana KM 14, Rua do General</p>
-                    </div>
-                    <div class="box boxC">
-                          <!-- o codigo i abaixo é o icone-->
-                          <i class="fas fa-phone fa-3x"></i>
-                        <h3>Telefone</h3>
-                        <p>(+244) 932 392 875 || (+244) 992 392 875</p>                        
-                    </div>
-                    <div class="box boxC">
-                          <!-- o codigo i abaixo é o icone-->
-                          <i class="fas fa-envelope fa-3x"></i>
-                        <h3>Email</h3>
-                        <p>geral.info@api_Stop_Covid_19.co.ao</p>
-                    </div>       
-                </div>
-
-            </section>
-
+                        <table id="customers">
+                        <tr>
+                            <th>TIPO DE METODO</th>
+                            <th>URL DE ACESSO</th>
+                            <th>DESCRIÇÃO DO METODO</th>
+                        </tr>
+                        <tr>
+                            <td>GET Default</td>
+                            <td>http://localhost/stopcovid19/api/dados/</td>
+                            <td>Url padrão sobre estado do covid-19 em Angola</td>
+                        </tr>
+                        <tr>
+                            <td>Berglunds snabbköp</td>
+                            <td>Christina Berglund</td>
+                            <td>Adicionar Dados (novo Caso ), referente a novo caso em Angola</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                            <td>Criar Conta (Telefone e Senha)</td>
+                        </tr>
+                        <tr>
+                            <td>Ernst Handel</td>
+                            <td>Roland Mendel</td>
+                            <td>Dados Geral da Situação do Pais</td>
+                        </tr>
+                        <tr>
+                            <td>Island Trading</td>
+                            <td>Helen Bennett</td>
+                            <td>Editar Dados</td>
+                        </tr>
+                        <tr>
+                            <td>Königlich Essen</td>
+                            <td>Philip Cramer</td>
+                            <td>Editar Dados Usuario</td>
+                        </tr>
+                        <tr>
+                            <td>Laughing Bacchus Winecellars</td>
+                            <td>Yoshi Tannamuri</td>
+                            <td>Eliminar Dados</td>
+                        </tr>
+                        <tr>
+                            <td>Magazzini Alimentari Riuniti</td>
+                            <td>Giovanni Rovelli</td>
+                            <td>Eliminar Usuario</td>
+                        </tr>
+                        <tr>
+                            <td>North/South</td>
+                            <td>http://localhost/­­stopcovid19/api/­­dados/luanda</td>
+                            <td>Listar dados por Provincia</td>
+                        </tr>
+                        <tr>
+                            <td>Paris spécialités</td>
+                            <td>http://localhost/­­stopcovid19/api/­­dados/luanda/viana</td>
+                            <td>Listar dados por Provincia e Municipios</td>
+                        </tr>
+                         <tr>
+                            <td>Paris spécialités</td>
+                            <td>Marie Bertrand</td>
+                            <td>Listar Usuarios</td>
+                        </tr>
+                        
+                        </table>
+            
+            </div>  
+         
+        </div>
+           
+     </section>
 
      
 

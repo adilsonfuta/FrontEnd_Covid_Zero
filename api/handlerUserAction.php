@@ -20,3 +20,4 @@ elseif ($_SERVER['REQUEST_METHOD'] == 'DELETE') {
 
     #acaoUsuario::deletarDados();
 }
+
