@@ -47,11 +47,12 @@ height: 400px;
 }
 
 .content .title{
-font-size: 2.2rem; 
+font-size: 3rem; 
 margin-top: 1rem;
 }
 
 .content .text{
+font-size: 1.3rem;  
 line-height: 1.7;
 margin-top: 1rem;
 }
@@ -146,7 +147,10 @@ footer p{
 /* Landscape */
 
 @media(max-heigth:500px){
-.content .title,
+.content .title{
+    display: none;
+}
+
 .content .text{
     display: none;
 }
